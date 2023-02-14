@@ -1,0 +1,111 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+.container{
+    background: #fff;
+    max-width: 450px;
+    width: 100%;
+    margin: 200px auto;
+    padding: 40px;
+    box-shadow: 0px 10px 15px rgba(0,0,0,0.1);
+}
+.todo-box{
+background-color: #fff;
+padding: 20px;
+box-shadow: 0px 0px 7px 5px #b5b0b0;
+}
+.heading{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+}
+.inputbox{
+    margin: 20px 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 45px;border-radius: 5px;
+    background: #eeefef;
+}
+.inputbox input{
+    width: 100%;
+    border: none;
+    background: rgb(222, 220, 220);
+}
+.inputbox:hover{
+    background-color: rgb(222, 220, 220);
+}
+.inputbox input:focus{
+    outline: none;
+}
+.icon{
+    font-size: 1.5rem;
+    padding: 10px;
+}
+#additems{
+    display: none;
+}
+.clk{
+    display: flex;
+    justify-content: space-between;
+    color: rgb(189, 187, 187);
+}
+.clk .clrall:hover{
+    cursor: pointer;
+    color: rgb(105, 105, 105);
+}
+.clk .clrcomtask:hover{
+    cursor: pointer;
+    color: rgb(105, 105, 105);
+}
+hr{
+    border: none;
+    border-top: 1px dotted rgb(192, 187, 187);
+}
+.itemlist li{
+    position: relative;
+    background-color: #d9d6d6;
+    overflow: hidden;
+    margin: 7px;
+    padding-left: 30px;
+    font-size: 20px;
+    cursor: pointer;
+    word-break: break-all;
+}
+.itemlist li .del{
+    rotate: 45deg;
+    position: absolute;
+    right: -30px;
+}
+.itemlist li:hover .del{
+    right: 0px;
+    transition: all 0.5s ease-in-out;
+}
+.click{
+    display: flex;
+    justify-content: space-between;
+    color: rgb(189, 187, 187);
+}
+.click .pendingTasks{
+    
+    padding-right: 3px;
+}
+.pendingTasks:hover{
+    color: rgb(105, 105, 105);
+    cursor: pointer;
+}
+.btn{
+    cursor: pointer;
+}
+.btn:hover{
+    color: rgb(105, 105, 105);
+}
+.itemsList li{
+    list-style: none;
+}
+.icon i{
+    font-size: 10px;
+}
